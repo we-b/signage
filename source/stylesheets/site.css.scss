@@ -3,11 +3,12 @@
 
 body {
   text-align: center;
-  font-family: "Lato", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Lato", "Meiryo", "メイリオ", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   height: 100vh;
   margin: 0;
   padding: 0;
+  overflow: hidden;
 }
 
 * {
@@ -21,7 +22,7 @@ ul,li {
 }
 
 main {
-  height: 85vh;
+  height: 80vh;
 
   img {
     height: 100%;
@@ -36,7 +37,7 @@ footer {
   display: -ms-flex;
   display: flex;
   color: #fff;
-  height: 15vh;
+  height: 20vh;
 
   .footer__content {
     width: 50%;

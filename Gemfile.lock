@@ -1,3 +1,13 @@
+GIT
+  remote: git://github.com/middleman-contrib/middleman-deploy.git
+  revision: 243ab38b08896cd5a37d6845a01a5761b934a898
+  branch: master
+  specs:
+    middleman-deploy (2.0.0.pre.alpha)
+      middleman-core (>= 3.2)
+      net-sftp
+      ptools
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -68,10 +78,6 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
-    middleman-deploy (1.0.0)
-      middleman-core (>= 3.2)
-      net-sftp
-      ptools
     minitest (5.9.1)
     net-sftp (2.1.2)
       net-ssh (>= 2.6.5)
@@ -104,7 +110,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (>= 4.0.0)
-  middleman-deploy
+  middleman-deploy!
   tzinfo-data
   wdm (~> 0.1.0)
 
