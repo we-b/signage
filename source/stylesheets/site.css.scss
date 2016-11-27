@@ -3,7 +3,7 @@
 
 body {
   text-align: center;
-  font-family: "Lato", "Meiryo", "メイリオ", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-family: "Open Sans", "Meiryo", "メイリオ", "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 1em;
   height: 100vh;
   margin: 0;
@@ -24,20 +24,29 @@ ul,li {
 main {
   height: 80vh;
 
+  ul, li {
+    height: 100%;
+  }
+
+  ul div {
+    height: 100%;
+  }
+
   img {
     height: 100%;
     width: auto;
+    margin: 0 auto;
   }
 }
 
 
-footer {
+footer.footer__main {
   background-color: #d83c2b;
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
   color: #fff;
-  height: 20vh;
+  height: 15vh;
 
   .footer__content {
     width: 50%;
@@ -70,8 +79,24 @@ footer {
       }
 
       strong {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
+        font-weight: 800;
       }
     }
+  }
+}
+
+.footer__content--center {
+  height: 5vh;
+  background-color: #d83c2b;
+  line-height: 5vh;
+  text-align: center;
+  border-top: 3px solid #fff;
+  font-size: 1.35rem;
+  color: #fff;
+  font-weight: bold;
+
+  p {
+    margin: 0;
   }
 }
