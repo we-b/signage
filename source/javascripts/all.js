@@ -11,6 +11,7 @@ $(document).ready(function(){
     infinite: true,
     fade: true,
     arrows: false,
+    cssEase: 'linear',
     centerPadding: '0'
   });
 });
