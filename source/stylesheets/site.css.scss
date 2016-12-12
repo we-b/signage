@@ -83,6 +83,14 @@ footer.footer__main {
         font-weight: 800;
       }
     }
+
+    &.right {
+      ul {
+        li {
+          width: 100%;  
+        }
+      }
+    }
   }
 }
 

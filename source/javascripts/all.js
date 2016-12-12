@@ -14,4 +14,7 @@ $(document).ready(function(){
     cssEase: 'linear',
     centerPadding: '0'
   });
+  setInterval(function(){
+    location.reload();
+  }, 50000);
 });
