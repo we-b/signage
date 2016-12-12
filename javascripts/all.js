@@ -1,1 +1,1 @@
-$(document).ready(function(){$(".slideshow").slick({autoplay:!0,autoplaySpeed:3e4,dots:!1,infinite:!0,fade:!0,arrows:!1,cssEase:"linear",centerPadding:"0"})});
+$(document).ready(function(){$(".slideshow").slick({autoplay:!0,autoplaySpeed:3e4,dots:!1,infinite:!0,fade:!0,arrows:!1,cssEase:"linear",centerPadding:"0"}),setInterval(function(){location.reload()},5e4)});
