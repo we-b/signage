@@ -16,5 +16,5 @@ $(document).ready(function(){
   });
   setInterval(function(){
     location.reload();
-  }, 50000);
+  }, 500000);
 });
